@@ -4,7 +4,9 @@ import { Redirect } from "expo-router";
 export default function App() {
   // return <Redirect href="/home" />;
   // return <Redirect href="/tabs" />;
-  return <Redirect href="/drawer" />;
+  // return <Redirect href="/drawer" />;
+  // return <Redirect href="/drawer/tabs/home" />;
+  return <Redirect href="/home" />;
 
   //   return (
   //     <SafeAreaView style={{ flex: 1 }}>
